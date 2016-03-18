@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 RSpec.feature 'Write back session data to redis', type: :feature do
-  let(:redis) { SessionStoreMigratorTestHelper.redis }
+  let(:redis) { SessionStoreRelocatorTestHelper.redis }
 
   def redis_key(id)
     "dummy_session:#{id}"
