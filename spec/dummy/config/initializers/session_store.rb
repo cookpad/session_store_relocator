@@ -1,6 +1,6 @@
 Rails.application.config.session_store SessionStoreMigrator::CookieToRedis, {
-  source: {key: '_dummy_session'},
-  destination: {
+  cookie_store: {key: '_dummy_session'},
+  redis_session_store: {
     key_prefix: 'dummy_session:',
     redis: { client: SessionStoreMigratorTestHelper.redis },
     serializer: :json,
