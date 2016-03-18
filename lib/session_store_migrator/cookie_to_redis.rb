@@ -13,12 +13,6 @@ module SessionStoreMigrator
       end
     end
 
-    def set_session(*args, &block)
-      super.tap do
-        @destination.send(:set_session, *args)
-      end
-    end
-
     def commit_session(*args)
       super.tap do
         @destination.send(:commit_session, *args)
