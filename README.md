@@ -1,4 +1,4 @@
-# SessionStoreMigrator
+# SessionStoreRelocator
 
 Supports session store relocation with temporary write session data to multiple store.
 

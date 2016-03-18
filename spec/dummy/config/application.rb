@@ -9,7 +9,7 @@ require "action_view/railtie"
 require "rails/test_unit/railtie"
 
 Bundler.require(*Rails.groups)
-require "session_store_migrator"
+require "session_store_relocator"
 
 module Dummy
   class Application < Rails::Application

@@ -1,6 +1,6 @@
 require 'mock_redis'
 
-module SessionStoreMigratorTestHelper
+module SessionStoreRelocatorTestHelper
   def redis
     @mock_redis ||= MockRedis.new
   end

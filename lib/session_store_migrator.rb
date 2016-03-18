@@ -1,3 +1,3 @@
-module SessionStoreMigrator
-  autoload 'CookieToRedis', 'session_store_migrator/cookie_to_redis'
+module SessionStoreRelocator
+  autoload 'CookieToRedis', 'session_store_relocator/cookie_to_redis'
 end

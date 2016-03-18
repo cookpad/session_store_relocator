@@ -1,6 +1,6 @@
 require 'redis-session-store'
 
-module SessionStoreMigrator
+module SessionStoreRelocator
   class CookieToRedis < ActionDispatch::Session::CookieStore
     def initialize(app, options = {})
       super(app, options[:cookie_store])

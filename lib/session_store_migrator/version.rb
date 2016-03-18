@@ -1,3 +1,3 @@
-module SessionStoreMigrator
+module SessionStoreRelocator
   VERSION = "0.0.1"
 end
