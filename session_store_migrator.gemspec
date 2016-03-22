@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = SessionStoreRelocator::VERSION
   s.authors     = ["moro"]
   s.email       = ["kyosuke-morohashi@cookpad.com"]
-  s.summary     = "Relocate sesion store from cookie to redis, write session data both strage"
+  s.summary     = "Supports Rails session store relocation with duplicate write session data to multiple stores"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]

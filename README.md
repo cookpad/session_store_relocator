@@ -1,6 +1,6 @@
 # SessionStoreRelocator
 
-Supports session store relocation with temporary write session data to multiple store.
+Supports Rails session store relocation with duplicate write session data to multiple stores
 
 Currently supports from Rails default ActionDispatch::Session::CookieStore to [RedisSessionStore](https://github.com/roidrage/redis-session-store).
 
